@@ -130,7 +130,7 @@ getgenv().Yeki = {
             ["Color"] = (Color3.fromRGB(200, 200, 200)), -- // Circle Color
             ["Offset"] = (Vector2.new(0, 0)), -- // Circle Position + The Offset
             ["StickyFov"] = (false), -- // Puts The Circle On Target Position
-            ["Radius"] = (38.6) -- // How Big The Circle Is
+            ["Radius"] = (40) -- // How Big The Circle Is
         },
         ["GunSettings"] = {
             ["Enabled"] = (false), -- // Enable / Disable GunSettings
