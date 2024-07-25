@@ -124,7 +124,7 @@ getgenv().Yeki = {
         },
         ["Fov"] = {
             ["Visible"] = (false), -- // If The Circle Is Showing Or Not
-            ["Method"] = ("Mouse"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
+            ["Method"] = ("Screen"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (true), -- // If The Circle Is Filled
             ["Transparency"] = (0.1), -- // The Circle Transparency
             ["Color"] = (Color3.fromRGB(200, 200, 200)), -- // Circle Color
@@ -211,7 +211,7 @@ getgenv().Yeki = {
     },
     ["AimAssist"] = {
         ["Enabled"] = (true), -- // Enable / Disable AimAssist
-        ["KeyBind"] = ("Q"), -- // The Key To Lock Onto A Player
+        ["KeyBind"] = ("E"), -- // The Key To Lock Onto A Player
         ["HoldMode"] = (false), -- // Enables While Only Holding The Key
         ["Method"] = ("Camera"), -- // Wich Thing It Uses For AimAssist (Mouse, Camera)
 
