@@ -20,7 +20,7 @@ getgenv().Yeki = {
             ["Suspicious"] = (true),
             ["CheatDetected"] = (true),
             ["FakeSpike"] = (false),
-            ["Desync"] = (false), 
+            ["Desync"] = (true), 
             ["Esp"] = (false),
             ["Misc"] = (false)
         } -- // Sends Notification When you Enabled / Disabled Stuff
@@ -368,7 +368,7 @@ getgenv().Yeki = {
     ["Desync"] = {
         ["Enabled"] = (false), -- // Enable / Disable Desync
         ["HealthDeActivation"] = (7), -- // Disables The Desync When Your Health Is That Low
-        ["UseDesyncKey"] = (false), -- // Use The KeyBind To Enable / Disable The Desync Desync Key
+        ["UseDesyncKey"] = (true), -- // Use The KeyBind To Enable / Disable The Desync Desync Key
         ["DesyncKey"] = ("X"), -- // Key To Enable / Disable Desync
         ["HoldMode"] = (false), -- // Enables While Only Holding The Key
         
