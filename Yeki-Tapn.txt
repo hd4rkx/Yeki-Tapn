@@ -270,7 +270,7 @@ getgenv().Yeki = {
         ["InVisibleCheck"] = (true), -- // Checks If Target Is InVisible
         ["ForceFieldCheck"] = (false), -- // Checks If Target Has ForceFeild. That Blue Bubble Thing When You Spawn
         ["TargetDeathCheck"] = (true), -- // Disables When Target Is Dead
-        ["PlayerDeathCheck"] = (true), -- // Disables When You Die
+        ["PlayerDeathCheck"] = (false), -- // Disables When You Die
         ["ToolOut"] = (false), -- // AimAssist Only Enables When An Tool Is Out
         
         ["WallCheck"] = (false), -- // Checks If There Is Nothing Infront Of The Target
