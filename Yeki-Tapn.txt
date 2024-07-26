@@ -123,7 +123,7 @@ getgenv().Yeki = {
             ["P10_20"] = (0.10087127181718181)
         },
         ["Fov"] = {
-            ["Visible"] = (false), -- // If The Circle Is Showing Or Not
+            ["Visible"] = (true), -- // If The Circle Is Showing Or Not
             ["Method"] = ("Screen"), -- // What Type Of Position The Fov Is Gonna Be (Mouse, Screen)
             ["Filled"] = (true), -- // If The Circle Is Filled
             ["Transparency"] = (0.1), -- // The Circle Transparency
@@ -216,8 +216,8 @@ getgenv().Yeki = {
         ["Method"] = ("Camera"), -- // Wich Thing It Uses For AimAssist (Mouse, Camera)
 
         ["PredictMovement"] = (true), -- // Predicts Target Position And MoveMent
-        ["Prediction"] = (0.1), -- // How Much Power It Predicts The Target
-        ["Part"] = ("UpperTorso"), -- // The Part That Aim Assist Locks On
+        ["Prediction"] = (0.15), -- // How Much Power It Predicts The Target
+        ["Part"] = ("Head"), -- // The Part That Aim Assist Locks On
         ["ClosestPart"] = (false), -- // Automatically Gets The Closest Part Of The Target And Uses That Position
         ["RandomPart"] = (false), -- // Randomizes An Part Of The Target And Uses That Position. Will OverWrite ClosestPart
         ["EnableChance"] = (false), -- // Makes So Theres A Chance The AimAssist Will Enabled
