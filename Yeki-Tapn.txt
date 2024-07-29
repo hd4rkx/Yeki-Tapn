@@ -58,14 +58,14 @@ getgenv().Yeki = {
         ["ForceKeyBind"] = ("H"), -- // The Key That Gets The Target
         
         ["PredictMovement"] = (true), -- // Predicts Target Position And MoveMent
-        ["Prediction"] = (0.122911), -- // How Much Power It Predicts The Target
+        ["Prediction"] = (0.135), -- // How Much Power It Predicts The Target
         ["Part"] = ("HumanoidRootPart"), -- // What Part It Targerts
         ["UseAirPart"] = (false), -- // When Target Is In The Air Its Gonna Force To Shoot On Air Part
         ["AirPart"] = ("LowerTorso"), -- // The Parts It Targets On When Player Is In The Air
         ["ClosestPart"] = (true), -- // Automatically Gets The Closest Part Of The Target And Uses That Position
         ["ClosestPoint"] = (false), -- // Automatically Gets The Closest Point Of The Target Part And Uses That Position
         ["UseWhitelistedParts"] = (true), -- // Makes So You Only Get Custom Parts
-        ["WhitelistedPart"] = {"Head", "UpperTorso", "LowerTorso", "RightFoot", "LeftFoot",}, -- // Whitelists Certain Part For ClosestPart Function. Example {"HumanoidRootPart", "Head"}
+        ["WhitelistedPart"] = {"Head", "UpperTorso", "LowerTorso", "RightUpperArm", "LeftUpperArm",}, -- // Whitelists Certain Part For ClosestPart Function. Example {"HumanoidRootPart", "Head"}
         ["AntiAimViewer"] = (true), -- // Bypasses The Mouse Position For The Server
         ["HitChance"] = (79), -- // The Chance You Will Hit The Target
         ["AirHitChance"] = (79), -- // The Chance You Will Hit The Target In The Air
@@ -217,7 +217,7 @@ getgenv().Yeki = {
 
         ["PredictMovement"] = (true), -- // Predicts Target Position And MoveMent
         ["Prediction"] = (0.1), -- // How Much Power It Predicts The Target
-        ["Part"] = ("Head"), -- // The Part That Aim Assist Locks On
+        ["Part"] = ("UpperTorso"), -- // The Part That Aim Assist Locks On
         ["ClosestPart"] = (false), -- // Automatically Gets The Closest Part Of The Target And Uses That Position
         ["RandomPart"] = (false), -- // Randomizes An Part Of The Target And Uses That Position. Will OverWrite ClosestPart
         ["EnableChance"] = (false), -- // Makes So Theres A Chance The AimAssist Will Enabled
